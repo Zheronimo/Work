@@ -1,0 +1,149 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.wrap {
+		padding: 0 5px;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.about_us h2, .services h2  {
+		padding: 0 60px;
+	}
+	.we_do h2 {
+		padding: 0 70px;
+		left: 25%
+	}
+	.contact h2 {
+		padding: 0 80px;
+		left: 25%
+	}
+	.services .container:before {
+		width: 200px;
+	}
+	.services .container:after {
+		width: 200px;
+	}
+}
+@media only screen and (max-width : 600px) {
+	.about_us h2, .services h2 {
+		left: 24%
+	}
+	.we_do h2 {
+		padding: 0 35px;
+		left: 25%
+	}
+	.contact h2 {
+		padding: 0 40px;
+		left: 25%
+	}
+	.services .container:before {
+		width: 150px;
+	}
+	.services .container:after {
+		width: 150px;
+	}	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	section {
+		padding: 50px 0;
+	}
+	
+	header .container h1 {
+		font-size: 50px;
+	}
+	.about_us h2, .services h2 {
+		padding: 0 45px;
+		left: 20%
+	}
+	.we_do h2 {
+		padding: 0 12px;
+		left: 22%
+	}
+	.contact h2 {
+		padding: 0 20px;
+		left: 20%
+	}
+	.services .container:before {
+		width: 100px;
+	}
+	.services .container:after {
+		width: 100px;
+	}
+	.contact .btn {
+		padding: 24px 100px;
+	}
+	.footer .container i {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.footer .container span {
+		display: inline;
+	}
+	form .btn {
+		padding: 24px 100px;
+	}	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	header .container h1 {
+		font-size: 45px;
+	}
+	.about_us h2, .services h2 {
+		padding: 0 10px;
+		left: 20%
+	}
+	.we_do h2 {
+		left: 10%
+	}
+	.contact h2 {
+		padding: 0 5px;
+		left: 15%
+	}
+	.services .container:before {
+		width: 50px;
+	}
+	.services .container:after {
+		width: 50px;
+	}		
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
